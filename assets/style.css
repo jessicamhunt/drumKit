@@ -1,39 +1,50 @@
 /* look up transition and transform */
-body{
+body {
     background-image: url("images/cartmanBG.jpg");
     background-position: center;
+    margin: 0;
 }
 
-header{
-    margin-bottom: 150px;
+
+/* HEADER */
+header {
+    background-color: slateblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: .9;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 h1 {
     text-align: center;
     color: antiquewhite;
-    /* font-family: 'Baloo Bhai', cursive; */
     font-family: 'Amatic SC', cursive;
     font-size: 70px;
     letter-spacing: 10px;
     text-shadow: 5px 5px black;
+    margin: 0;
 
 }
 
-.keys{
+
+/* MAIN SECTION WITH KEY BUTTONS */
+.keys {
     text-align: center;
+    position: relative;
+    margin-top: 200px;
 }
 
-.key{
-    /* float: left; */
-    padding: 10px; 
+.key {
+    padding: 10px;
     margin: 20px;
     display: inline-block;
     color: antiquewhite;
-    /* font-family: 'Baloo Bhai', cursive; */
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
     font-weight: bold;
-    border: solid white 2px;
+    border: outset white 4px;
     text-shadow: 2px 2px black;
 }
 
@@ -41,11 +52,25 @@ kbd {
     display: block;
 }
 
-footer{
+span {
+    letter-spacing: 2px;
+}
+
+
+/* FOOTER */
+footer {
+    opacity: .8;
     text-align: center;
-    color: antiquewhite;
+    padding-top: 20px;
+    background-color: orange;
+    color: midnightblue;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
 }
