@@ -1,8 +1,10 @@
 /* look up transition and transform */
 body {
-    background-image: url("images/cartmanBG.jpg");
+
     background-position: center;
     margin: 0;
+    background-image: url("images/cartmanBG.jpg");
+
 }
 
 
@@ -29,13 +31,17 @@ h1 {
 }
 
 
+
 /* MAIN SECTION WITH KEY BUTTONS */
 .keys {
     text-align: center;
     position: relative;
     margin-top: 200px;
-    
+    display: flex;
+    justify-content: center;
+
 }
+
 
 .key {
     padding: 10px;
@@ -47,17 +53,27 @@ h1 {
     font-weight: bold;
     border: outset white 4px;
     text-shadow: 2px 2px black;
+    width: 50px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(184, 25, 25, 0.73);
+
 }
 
 kbd {
-    display: block;
+    display: inline-block;
     font-size: 30px;
+    justify-content: center;
 }
 
 span {
+    text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 21px;
+    display: inline-flex;
+    justify-content: center;
 }
 
 
