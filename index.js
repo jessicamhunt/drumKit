@@ -13,6 +13,9 @@ console.log("linked to html")
 
 // PLAY SOUND FUNCTION
 //function with event parameter(console.log(e.keycode)) to check key codes.
+window.addEventListener('keydown', function(e){
+    console.log(e.keyCode);
+});
 //audio variable equal to:
     //select audio element from html doc.
     //use attribute selector and es6 template strings to select key code.
