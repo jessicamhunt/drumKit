@@ -1,10 +1,22 @@
 /* look up transition and transform */
+body{
+    background-image: url("images/cartmanBG.jpg");
+    background-position: center;
+}
+
 header{
     margin-bottom: 150px;
 }
 
 h1 {
     text-align: center;
+    color: antiquewhite;
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px black;
+
 }
 
 .keys{
@@ -13,11 +25,27 @@ h1 {
 
 .key{
     /* float: left; */
-    /* padding-left: 20px;  */
+    padding: 10px; 
     margin: 20px;
     display: inline-block;
+    color: antiquewhite;
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid white 2px;
+    text-shadow: 2px 2px black;
 }
 
 kbd {
     display: block;
+}
+
+footer{
+    text-align: center;
+    color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
