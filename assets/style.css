@@ -21,7 +21,7 @@ h1 {
     text-align: center;
     color: antiquewhite;
     font-family: 'Amatic SC', cursive;
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 10px;
     text-shadow: 5px 5px black;
     margin: 0;
@@ -34,6 +34,7 @@ h1 {
     text-align: center;
     position: relative;
     margin-top: 200px;
+    
 }
 
 .key {
@@ -42,7 +43,7 @@ h1 {
     display: inline-block;
     color: antiquewhite;
     font-family: 'Amatic SC', cursive;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: bold;
     border: outset white 4px;
     text-shadow: 2px 2px black;
@@ -50,10 +51,13 @@ h1 {
 
 kbd {
     display: block;
+    font-size: 30px;
 }
 
 span {
     letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 21px;
 }
 
 
