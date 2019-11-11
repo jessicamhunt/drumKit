@@ -1,5 +1,23 @@
 /* look up transition and transform */
+header{
+    margin-bottom: 150px;
+}
 
 h1 {
     text-align: center;
+}
+
+.keys{
+    text-align: center;
+}
+
+.key{
+    /* float: left; */
+    /* padding-left: 20px;  */
+    margin: 20px;
+    display: inline-block;
+}
+
+kbd {
+    display: block;
 }
