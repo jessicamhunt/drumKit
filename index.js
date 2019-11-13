@@ -15,10 +15,14 @@ console.log("linked to html")
 //function with event parameter(console.log(e.keycode)) to check key codes.
 window.addEventListener('keydown', function(e){
     console.log(e.keyCode);
-});
-//audio variable equal to:
+
     //select audio element from html doc.
     //use attribute selector and es6 template strings to select key code.
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    console.log(audio)
+
+    //audio variable equal to:
+});
 //if theres no audio stop the function from running.
 //set audio current time to 0 to stop sound and rewind if pressed multiple times.
 //call audio.play function
