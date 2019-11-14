@@ -15,19 +15,19 @@ So, far this app works in Chrome. More programming would be needed for cross bro
 
 ### Installing
 
-* This repository can be easily cloned since there are no special installations or modification needed.
+* This repository can be easily cloned since there are no special installations or modification needed: 
 [Repository](https://github.com/jhunt1989/drumKit)
 
-* The app is currently deployed on github.
-[Website](https://github.com/jhunt1989/drumKit)
+* The app is currently deployed on github: 
+[Website](https://jhunt1989.github.io/drumKit/)
 
 
 ## Authors
 
 Jessica Hunt  
-ex. [Github](https://github.com/jhunt1989)
+[Github](https://github.com/jhunt1989)
 
 ## Acknowledgments
 
-Inspiration, idea, code snippets are from Wes Bos's Javascript30 tutorial JavaScript Drum Kit.
-* [Javascript30](https://javascript30.com/)
+Inspiration, idea, code snippets are from Wes Bos's Javascript30 tutorial.
+[Javascript30](https://javascript30.com/)
